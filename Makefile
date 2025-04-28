@@ -3,7 +3,7 @@ CXX_FLAGS=-std=c++20 -Iincludes -Wall -Wextra -Werror -O0 -gdwarf-4
 
 exec: bin/exec
 
-bin/exec: ./src/driver.cc ./src/utilities.cc
+bin/exec: ./src/driver.cc ./src/utilities.cc ./src/graph.cc ./src/announcements.cc
 	$(CXX) $(CXX_FLAGS) $^ -o $@
 
 .DEFAULT_GOAL := exec

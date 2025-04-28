@@ -21,7 +21,7 @@ bool Graph::dfs(const std::string& node,
   return false;
 }
 
-bool Graph::detectCycle() {
+bool Graph::DetectCycle() {
   std::unordered_set<std::string> visited;
   std::unordered_set<std::string> recursionStack;
 

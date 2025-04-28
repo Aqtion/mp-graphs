@@ -15,7 +15,7 @@ public:
 
     void AddEdge(std::string source, std::string destination);
 
-    std::list<std::string> GetVertices(std::string source);
+    std::list<std::string> GetVertices();
 
     std::list<std::string> GetEdges(std::string source);
 

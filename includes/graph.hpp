@@ -8,13 +8,15 @@ class Graph {
     public:
         Graph() = default;
 
-        void addVertex(std::string);
+        void AddVertex(std::string);
 
-        void addEdge(std::string source, std::string destination);
+        void AddEdge(std::string source, std::string destination);
 
-        void getEdges(std::string source);
+        std::list<std::string> GetVertices(std::string source);
 
-        void areAdjacent(std::string source, std::string destination);
+        std::list<std::string> GetEdges(std::string source);
+
+        bool AreAdjacent(std::string source, std::string destination);
 
     private:
         std::list<std::string> nodes_;

@@ -1,0 +1,23 @@
+9
+CS Head
+Math Head
+CS TA
+CS Student 1
+Math CS Student 1
+Math CS Student 2
+CS CA
+Math Student 1
+CS Student 2
+CS Head,CS TA
+CS Head,Math CS Student 1
+CS Head,Math CS Student 2
+Math Head,Math CS Student 1
+Math Head,Math CS Student 2
+CS TA,CS Student 1
+CS TA,Math CS Student 1
+Math CS Student 1,Math CS Student 2
+CS TA,CS CA
+CS CA,CS Student 1
+CS CA,Math CS Student 2
+Math Head,Math Student 1
+CS Head,CS Student 2
